@@ -10,8 +10,38 @@
         <mxCell id="YHVx8U0HPfDg-FYooPVT-2" value="&lt;div&gt;OBU_Twizy&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="40" width="110" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="YHVx8U0HPfDg-FYooPVT-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="YHVx8U0HPfDg-FYooPVT-3" target="YHVx8U0HPfDg-FYooPVT-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="YHVx8U0HPfDg-FYooPVT-3" value="ESP32_NOW" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="280" y="120" width="170" height="100" as="geometry" />
+          <mxGeometry x="180" y="130" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YHVx8U0HPfDg-FYooPVT-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="YHVx8U0HPfDg-FYooPVT-4" target="YHVx8U0HPfDg-FYooPVT-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YHVx8U0HPfDg-FYooPVT-4" value="ESP32_CAN" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="420" y="120" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YHVx8U0HPfDg-FYooPVT-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="YHVx8U0HPfDg-FYooPVT-5" target="YHVx8U0HPfDg-FYooPVT-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YHVx8U0HPfDg-FYooPVT-5" value="MCP2515" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="445" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YHVx8U0HPfDg-FYooPVT-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="YHVx8U0HPfDg-FYooPVT-9" target="YHVx8U0HPfDg-FYooPVT-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YHVx8U0HPfDg-FYooPVT-9" value="&lt;div&gt;CAN_interface&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="445" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YHVx8U0HPfDg-FYooPVT-11" value="USB1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="205" y="50" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YHVx8U0HPfDg-FYooPVT-13" value="USB2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="442.5" y="50" width="125" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YHVx8U0HPfDg-FYooPVT-15" value="MPU" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="320" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
